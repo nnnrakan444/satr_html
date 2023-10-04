@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+    <head> 
+        <title>دورة html</title> 
+        <style>
+            table, th, td
+            {
+                border: 1px solid black;
+            }
+        </style>
+    </head>
+
+    <body dir="rtl">
+        <h1>دورة html</h1><!--title-->
+
+        <h2>وصف الدورة</h2><!--sub title-->
+
+        <!--Add photo ابعد الصورة جيدة ولهذا لم اعدل عليها-->
+        <img src="ph_html.jpg" alt="HTML logo">
+
+        <p><!--description-->
+           <b>HTML</b> هي طريقة لكتابة و هيكلة صفحات الويب
+            ولا تعتبر <strong>HTML</strong> لغة برمجية بالمعنى بل هي لغة وصفية.
+            أي أنها تستخدم لوصف الصفحة و توزيع و ترتيب محتواها
+            من نصوص وروابط و صور و مقاطع فيديو وما الى ذلك.
+            وهي المكون الأرئيسي لاي موقع ويب.
+            وما يسمى بالوسم أو <em>HTML</em> تستخدم <i>Tags</i>.
+        </p>
+        
+         <p><b>مواعيد المحاضرات يوميا:</b><br>
+         من الساعة
+         8:00<sub>am</sub> 
+         إلى الساعة
+         11:00<sub>pm</sub>
+        </p>
+      
+        <p>
+            <b>المستويات لهذه الدورة:</b><br>
+            1<sup>st</sup> level: اساسيات html <br>
+            2<sup>nd</sup> level: مفاهيم متقدمة في html
+        </p>
+        <hr>
+        
+        <h2>أهداف هذه الدورة</h2>
+        <ol type="I">
+            <li>التعرف عل مفهوم html</li>
+            <li>تعلم كل tag الغرض من استخدام</li>
+            <li>طرق اضافة النص و الفيديوهات و غيرها من المحتويات المعتادة في صفحات الويب</li>
+        </ol>
+
+        <h2>متطلبات هذه الدورة</h2>
+
+        <ul type="circle">
+            <li>متصفح (سفاري , قوقل كروم)</li>
+            <li>محرر نصوص</li>
+        </ul>
+        <p>للمرجع أضغط
+        <a href="https://dev.w3.org/html5/spec-LC/">هنا</a>
+        </p>
+
+        <strong>مقطع فيديو لتعريف منصة سطر</strong>
+        <video src="Satr platform definition.mp4" width="700" height="500" controls>
+            *عذرا لا يمكن عرض هذا الفيديو*
+        </video>
+
+        <audio src="open-small-lid-80934.mp3" controls>
+            *عذرا لا يمكن عرض هذاالصوت*
+        </audio>
+
+        <table>
+            <caption>جدول أماكن المحاضرات </caption>
+            <tr>
+                <th>اليوم</th>
+                <th>المكان</th>
+            </tr>
+
+            <tr>
+                <td>الاحد و الاثنين</td>
+                <td>Class A</td>
+            </tr>
+
+            <tr>
+                <td>الثلاثاء و الاربعاء</td>
+                <td>Class B</td>
+            </tr>
+            <tr>
+                <td colspan="2">الخميس إجازة لا أحد يداوم</td>
+            </tr>
+        </table>
+
+        <h2>نموذج الانضمام للدورة</h2>
+        <form >
+            <!--Radoi-->
+            <label for="name">اسم المستخدم</label>
+            <input type="text" id="name">
+            <p>الجنس:</p>
+            <input type="radio" id="Male" name="gender">
+            <label for="Male">ذكر</label>
+            <input type="radio" id="Female" name="gender">
+            <label for="Female">أنثى</label>
+            <!--checkBox-->
+            <p>من اين سمعت عن HTML</p>
+            <input type="checkbox" id="friend" name="friend">
+            <label for="friend">صديق</label><br>
+            <input type="checkbox" id="book" name="book">
+            <label for="book">كتاب</label><br>
+            <input type="checkbox" id="social media" name="social media">
+            <label for="social media">التواصل الاجتماعي</label><br>
+            <!--Select-->
+            <label for="city">أختر مدينتك:</label>
+            <select name="city" id="city">
+                <option value="Riyadh">الرياض</option>
+                <option value="Jeddah">جدة</option>
+                <option value="MAdinah">المدينة</option>
+            </select>
+
+            <input type="submit" value="انضمام">
+        </form>
+
+        
+        
+    </body>
+
+</html>
